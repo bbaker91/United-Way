@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="WebApplication3.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="StyleSheet.css"/>
+</head>
+<body id="masterbackground">
+    <form id="form1" runat="server">
+        <div>     <p>
+                    United Way Email Supression Interface</p>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           <!-- page data will go here --> 
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
